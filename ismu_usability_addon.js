@@ -80,19 +80,7 @@
 
 
         });
-        //         var tds = new Array();
-        //         for (var i = 0; i < links.length; i++) {
-        //             if(i==0) {
-        //                 tds[0] = "<td>Скачать?</td>"
-        //             }
-        //             else {
-        //                 tds[i] = '<td><input type="checkbox" class="dwnld_link"/></td>'
-        //             }
-        //             }
-        //var td = document.createElement('td');
-        //var text = document.createTextNode("<strong>Всем привет!</strong> Вы прочитали важное сообщение.");
-        //td.appendChild(text);
-        //console.log(td);
+       
         var checkboxs = new Array();
         checkboxs.push('<td>Скачать?</td>');
         for (var i = 0; i < links.length; i++) {
